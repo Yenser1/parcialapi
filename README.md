@@ -175,4 +175,18 @@ Espero que esto te sea útil.
 
 # ADDRESS
 
-https://api.vercel.com/v9/projects
+https://api.vercel.com/v6/deployments?teamId=[teamID]
+POST    /v1/access-groups/{accessGroupIdOrName}/projects  
+POST    /v1/access-groups  
+DELETE  /v1/access-groups/{accessGroupIdOrName}/projects/{projectId}  
+DELETE  /v1/access-groups/{idOrName}  
+GET     /v1/access-groups  
+GET     /v1/access-groups/{idOrName}/members  
+GET     /v1/access-groups/{idOrName}/projects  
+GET     /v1/access-groups/{idOrName}  
+GET     /v1/access-groups/{accessGroupIdOrName}/projects/{projectId}  
+POST    /v1/access-groups/{idOrName}  
+PATCH   /v1/access-groups/{accessGroupIdOrName}/projects/{projectId}
+https://api.vercel.com/v1/access-groups/{accessGroupIdOrName}/projects
+https://api.vercel.com/v1/access-groups/{accessGroupIdOrName}/projects/{projectId}
+https://api.vercel.com/v1/access-groups/{idOrName}
